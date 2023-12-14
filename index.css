@@ -8,8 +8,8 @@ body {
   color: white;
   font-weight: bold;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.3)),
-    url("images/bg.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.4)),
+    url("images/bg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -416,370 +416,6 @@ body {
   border-radius: 10px;
 }
 
-/* flex 속성 */
-.flex-row {
-  display: flex;
-}
-
-.flex-col {
-  display: flex;
-  flex-direction: column;
-}
-
-.item-baseline {
-  align-items: baseline;
-}
-
-.title {
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-
-  grid-area: t;
-}
-
-.title img {
-  width: 90%;
-  height: auto;
-}
-
-/* 그리드 별 배경 이미지 */
-.day-1 {
-  grid-area: d1;
-  background: url("images/frame/frame1.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-1 .back {
-  background-image: url("images/card/card-1.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-2 {
-  grid-area: d2;
-  background: url("images/frame/frame2.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-2 .back {
-  background-image: url("images/card/card-2.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-3 {
-  grid-area: d3;
-  background: url("images/frame/frame3.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-3 .back {
-  background-image: url("images/card/card-3.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-4 {
-  grid-area: d4;
-  background: url("images/frame/frame4.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-4 .back {
-  background-image: url("images/card/card-4.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-5 {
-  grid-area: d5;
-  background: url("images/frame/frame5.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-5 .back {
-  background-image: url("images/card/card-5.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-6 {
-  grid-area: d6;
-  background: url("images/frame/frame6.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-6 .back {
-  background-image: url("images/card/card-6.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-7 {
-  grid-area: d7;
-  background: url("images/frame/frame7.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-7 .back {
-  background-image: url("images/card/card-7.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-8 {
-  grid-area: d8;
-  background: url("images/frame/frame8.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-8 .back {
-  background-image: url("images/card/card-8.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-9 {
-  grid-area: d9;
-  background: url("images/frame/frame9.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-9 .back {
-  background-image: url("images/card/card-9.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-10 {
-  grid-area: d10;
-  background: url("images/frame/frame10.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-10 .back {
-  background-image: url("images/card/card-10.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-11 {
-  grid-area: d11;
-  background: url("images/frame/frame11.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-11 .back {
-  background-image: url("images/card/card-11.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-12 {
-  grid-area: d12;
-  background: url("images/frame/frame12.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-12 .back {
-  background-image: url("images/card/card-12.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-13 {
-  grid-area: d13;
-  background: url("images/frame/frame13.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-13 .back {
-  background-image: url("images/card/card-13.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-14 {
-  grid-area: d14;
-  background: url("images/frame/frame14.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-14 .back {
-  background-image: url("images/card/card-14.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-15 {
-  grid-area: d15;
-  background: url("images/frame/frame15.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-15 .back {
-  background-image: url("images/card/card-15.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-16 {
-  grid-area: d16;
-  background: url("images/frame/frame16.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-16 .back {
-  background-image: url("images/card/card-16.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-17 {
-  grid-area: d17;
-  background: url("images/frame/frame17.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-17 .back {
-  background-image: url("images/card/card-17.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-18 {
-  grid-area: d18;
-  background: url("images/frame/frame18.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-18 .back {
-  background-image: url("images/card/card-18.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-19 {
-  grid-area: d19;
-  background: url("images/frame/frame19.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-19 .back {
-  background-image: url("images/card/card-19.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-20 {
-  grid-area: d20;
-  background: url("images/frame/frame20.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-20 .back {
-  background-image: url("images/card/card-20.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-21 {
-  grid-area: d21;
-  background: url("images/frame/frame21.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-21 .back {
-  background-image: url("images/card/card-21.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-22 {
-  grid-area: d22;
-  background: url("images/frame/frame22.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-22 .back {
-  background-image: url("images/card/card-22.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-23 {
-  grid-area: d23;
-  background: url("images/frame/frame23.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-23 .back {
-  background-image: url("images/card/card-23.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
-.day-24 {
-  grid-area: d24;
-  background: url("images/frame/frame24.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.day-24 .back {
-  background-image: url("images/card/card-24.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-}
-
 /* door styles */
 .grid-1 input {
   display: none;
@@ -809,4 +445,29 @@ label {
   top: 10px;
   left: 10px;
   color: white;
+}
+
+/* 카드 뒷면 */
+.door div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+
+  border-radius: 6px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* 카드 뒤집기 애니메이션 */
+.door .back {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transform: rotateY(180deg);
+}
+
+:checked + .door {
+  transform: rotateY(180deg);
 }

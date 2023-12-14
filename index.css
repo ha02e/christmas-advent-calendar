@@ -19,7 +19,7 @@ body {
   display: grid;
   width: 90vw;
   max-width: 900px;
-  margin: 2% auto;
+  margin: 5% auto;
   z-index: 1;
 
   grid-template-columns: repeat(3, 1fr);

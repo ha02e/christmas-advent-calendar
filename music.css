@@ -1,0 +1,25 @@
+/* 음악 재생 버튼 */
+.audio-btn {
+  width: 100%;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+.sound {
+  cursor: pointer;
+  position: relative;
+  font-size: 2rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  color: white;
+  text-align: center;
+  margin: 0 1rem 0.5rem 0;
+  background-image: url("images/sound_on.png");
+  background-position: center;
+  background-size: cover;
+}
+
+/* 음악 중단 버튼 */
+.stop {
+  background-image: url("images/sound_off.png");
+}

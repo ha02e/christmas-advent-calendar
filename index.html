@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="snow.css" />
     <link rel="stylesheet" href="share.css" />
+    <link rel="stylesheet" href="music.css" />
   </head>
   <body>
     <!-- 배경 눈내리는 효과 -->
@@ -17,7 +18,13 @@
     <!-- 달력 -->
     <section class="grid-1">
       <div class="title flex-col item-baseline">
+        <div class="flex-row audio-btn">
+            <audio class="bgm" src="carol.mp3" preload="auto" style="display: none;"></audio>
+            <div class="sound"></div>
+            <div class="sound stop"></div>
+          </div>
         <img src="images/merry.png" />
+        
       </div>
       <div class="day-1">
         <label>
@@ -292,5 +299,6 @@
 
     <script src="index.js"></script>
     <script src="share.js"></script>
+    <script src="music.js"></script>
   </body>
 </html>

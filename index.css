@@ -2,8 +2,6 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  overflow: hidden;
 
   color: white;
   font-weight: bold;
@@ -69,7 +67,6 @@ body {
 .title {
   display: flex;
   align-items: baseline;
-  justify-content: center;
 
   grid-area: t;
 }
